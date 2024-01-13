@@ -6,10 +6,10 @@ I have been working on a project focused on image processing and machine learnin
 
 1. We are generating RGB images from the viewer viewport with dimensions 256 x 256. We are also generating iteratively the synthetic data (image) with the same resolution and size along with the corresponding annotation file.
 2.  The annotation file includes the following information:
-   1. Classes (0 since we have only one class object)
-   2. The x and y coordinate
-   3. Gamma and Phi angles (rotation around 2 axes is being considered)
-   4. Two Confidence scores, the first one based on the larger vertices and the second one on the small vertices.
+   * 1. Classes (0 since we have only one class object)
+   * 2. The x and y coordinate
+   * 3. Gamma and Phi angles (rotation around 2 axes is being considered)
+   * 4. Two Confidence scores, the first one based on the larger vertices and the second one on the small vertices.
 
 
 I am including a sample synthetic image, a training image, and a sample annotation file.
@@ -20,11 +20,11 @@ Based on the confidence threshold we set, we can modify the Object ID Index of t
 _____________________________________________________________________________________________________
 
 Content of folders:
-Synthetic Images 
-Training Images
-Real Images
-Annotation file
-Segmented images
+- Synthetic Images 
+- Training Images
+- Real Images
+- Annotation file
+- Segmented images
 
 _____________________________________________________________________________________________________
 
